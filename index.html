@@ -1,98 +1,182 @@
-<!doctype html>
+<!DOCTYPE html>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>
-		My coding page
-	</title>
-	<style>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1">
+	<title>Responsive layout example</title>
+<style>
+
+	*{
+		box-sizing: border-box;
+	}
+	
+	h1{
 		
-		body{
-			margin: 0;
-			padding: 0;
+		text-align: center;
+	}
+	p{
+		
+		background-color:    #d6d6c2;
+		width: 90%
+		height:	150px;
+		margin: 30px;
+		font-family: Helvetica;
+		color: black;
+		text-align: justify;
+	}
+	 .d1{
+	padding: 10px;
+	
+	background-color: pink;
+	float: right;
+	margin: 10px;
+	border: 2px solid black;
+	
+	width: auto;
+	}
+	.d2{
+	padding: 10px;
+	border: 2px solid black;
+	background-color: violet;
+	float: right;
+	margin: 10px;
+	width: auto;
+	
+	
+	}
+	.d3{
+	padding: 10px;
+	border: 2px solid black;
+	background-color:  #ffb3ff;
+	float: right;
+	margin: 10px;
+	width: auto;
+	
+	
+	}
+	
+	.row {
+		width: 100%;
+		
+ 	}
+
+	@media(min-width: 992px)
+	{.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+      float: left;
+      background-color:  #d6d6c2;
+      border: 1px solid black;
+      
+  }
+  .col-lg-1{
+			width: 8.33%;
 		}
-
-h1,div{
+		.col-1g-2{
+			width: 16.66%;
+		}
+  .col-lg-3{
+			width: 25%;
+		}
+		.col-1g-4{
+			width: 33%;
+		}
+  .col-lg-5{
+			width: 41.66%;
+		}
+		.col-1g-6{
+			width: 50%;
+		}
+  .col-lg-7{
+			width: 58.33%;
+		}
+		.col-1g-8{
+			width: 66.66%;
+		}
+  .col-lg-9{
+			width: 74.99%;
+		}
+		.col-1g-10{
+			width: 83.33%;
+		}
+		.col-lg-11{
+			width: 91.66%;
+		}
+		.col-lg-12{
+			width: 100%
+		}
+		
+	}
+	@media(min-width: 768px) and (max-width: 991px)
+	{.col-td-1, .col-td-2, .col-td-3, .col-td-4, .col-td-5, .col-td-6, .col-td-7, .col-td-8, .col-td-9, .col-td-10, .col-td-11, .col-td-12 {
+      float: left;
+      
+  }
+		.col-td-1{
+			width: 8.33%;
+		}
+		.col-td-2{
+			width: 16.66%;
+		}
+  .col-td-3{
+			width: 25%;
+		}
+		.col-td-4{
+			width: 33%;
+		}
+  .col-td-5{
+			width: 41.66%;
+		}
+		.col-td-6{
+			width: 50%;
+		}
+  .col-td-7{
+			width: 58.33%;
+		}
+		.col-td-8{
+			width: 66.66%;
+		}
+  .col-td-9{
+			width: 74.99%;
+		}
+		.col-td-10{
+			width: 83.33%;
+		}
+		.col-td-11{
+			width: 91.66%;
+		}
+		.col-td-12{
+			width: 100%
+		}
+		
+	}
 	
-	text-transform: uppercase;
-	background-color: pink;
-	text-align: center;
-	border: 5px solid black;
-}
-
-
-h2{
-	
-	text-transform: uppercase;
-
-}
-	
-
-p.p1{
-	color: red;
-
-text-align: center;
-	width: 100%;
-}
-
-p.p2{
-	color: red;
-	text-align: center;
-	text-transform: uppercase;
-	width: 100%
-
-
-}
-section{
-	background-color: pink;
-padding: 30px;
-
-}
-section ol{
-	text-align: center;
 	
 
 
-}
- a:link, a:visited {
-  text-decoration: none;
-background-color: tomato;
-border: 2px solid black;
-display:block;
-width:200px;
-color: black;
-
- }
- a:hover, a:active{
- 	background-color: yellow;
- 	color: gray;
- }
-
-
-
-	</style>
+	}
+</style>
 </head>
 <body>
+<h1> Travel Destinations </h1>
 
-<h1> Loving to code </h1>
-<h2>
-<ul>
-<li>section 2 </li>
-</ul>
-</h2>
+<div class="row">
 
-<div>
-	<p class="p1">This is just to study about the codes that we have learned and how it is working in the environment
-	so that we can analize what are requried and imporve our skill.</p>
+<div class="col-lg-3 col-td-6 ">
+	<div class="d1"> PARIS </div>
+	<p>Paris occupies a central position in the rich agricultural region known as the Paris Basin, and it constitutes one of eight départements of the Île-de-France administrative region. It is by far the country’s most important centre of commerce and culture. Area city, 41 square miles (105 square km); metropolitan area, 890 square miles (2,300 square km). Pop. (2012) city, 2,265,886; (2015 est.) urban agglomeration, 10,858,000</p>.
+
+</div></div>
 </div>
-	<p class="p2"> Languages under study are </p>
-	<section>
-	<ol>
-		<li> <a href="file:///C:/Users/varun/Desktop/ddd.html">JAVA</a></li>
-	</ol>
-	</section>
-	
+<div class="col-lg-3 col-td-6 ">
+	<div class="d2"> SINGAPORE </div>
+	<p>Though physically small, Singapore is an economic giant. It has been Southeast Asia's most modern city for over a century. The city blends Malay, Chinese, Arab, Indian and English cultures and religions. Its unique ethnic tapestry affords visitors a wide array of sightseeing and culinary opportunities from which to choose. A full calendar of traditional festivals and holidays celebrated throughout the year adds to its cultural appeal. In addition, Singapore offers luxury hotels, delectable cuisine and great shopping! The island nation of the Republic of Singapore lies one degree north of the Equator in Southern Asia. The country includes the island of Singapore and 58 or so smaller islands. Because of its efficient and determined government, Singapore has become a flourishing country that excels in trade and tourism and is a model to developing nations. The capital city, also called Singapore, covers about a third of the area of the main island.</p></div>
+<div class="col-lg-3 col-td-12">
+	<div class="d3"> MEXICO</div>
+	<p>Mexico, officially the United Mexican States, is a country in the southern portion of North America. It is bordered to the north by the United States; to the south and west by the Pacific Ocean; to the southeast by Guatemala, Belize, and the Caribbean Sea; and to the east by the Gulf of Mexico</p>
 
+</div>
+</div>
 
 </body>
 </html>
+	
